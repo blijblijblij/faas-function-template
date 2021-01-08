@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: ${{ secrets.OPENFAAS_GATEWAY }}
+functions:
+  FAAS_FUNCTION:
+    lang: ruby-http
+    handler: ./FAAS_FUNCTION
+    image: ghcr.io/${{ github.repository_owner}}/faas-function-FAAS_FUNCTION:latest
+
