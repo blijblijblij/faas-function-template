@@ -15,3 +15,5 @@ OPENFAAS_PASSWORD
 OPENFAAS_GATEWAY
 ```
 
+## usage
+Do `%s/FUNCTION_NAME/my-new-and-shiny-function/g` on files and folders after creating a new repo based on this template.
